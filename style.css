@@ -8,6 +8,18 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* developer logo on left side start here START HERE */
+
+
+.developer-left-logo {
+    background-image: url('/images/developer.png');
+   background-repeat: no-repeat;
+   height: 10px;
+
+
+
+/* NAV BAR START HERE */
+
 
 .text-primary{
     color: #FD6E0A;
@@ -54,6 +66,39 @@ nav > ul{
     padding: 10px 36px;
     border-radius: 5px;
     font-size: 15px;
+    border: none;
+     margin: 10px 70px;
 
   }
-  
+
+
+ /* HERO SECTION START HERE */
+
+ .first-line{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 70px;
+ }
+.second-line{
+    font-weight: bold;
+    font-size: 40px;
+    margin: 10px 70px;
+}
+.paragraph-line{
+    color: #474747;
+    margin-top: 9px;
+    margin: 10px 70px;
+}
+.my-photo{
+    width: 300px;
+    margin: 10px 70px;
+}
+.abba-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px 0 0;
+}
+.baby-banner-contant{
+    max-width: 600px;
+}
