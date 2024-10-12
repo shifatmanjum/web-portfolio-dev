@@ -1,104 +1,142 @@
-
-
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
- 
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
+
 /* developer logo on left side start here START HERE */
 
 
 .developer-left-logo {
-    background-image: url('/images/developer.png');
-   background-repeat: no-repeat;
-   height: 10px;
+    background-image: url('/images/developer.png'), url('/images/header_bg.png');
+    background-repeat: no-repeat, no-repeat;
+
+
+    background-position: 0px top, right 200px;
+    background-size: 62px, 600px;
 
 
 
-/* NAV BAR START HERE */
-
-
-.text-primary{
-    color: #FD6E0A;
-}   
 
 
 
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px 70px;
-}
 
-.nav-title{
-    font-weight: 800;
-    font-size: 45px;
-}
-
-nav > ul > li {
-    list-style: none;
-    margin-right: 40px;
-    
-    
-}
-
-nav > ul > li > a {
-    text-decoration: none;
-    font-size: 20px;
-    
-}
-.dark-2{
-    color: #474747;
-}
-nav > ul{
-    display: flex;
-    align-items: center;
-
-}
-.btn-primary {
-    background-color: #FD6E0A;
-    font-weight: 700;
-    color: white;
-    padding: 10px 36px;
-    border-radius: 5px;
-    font-size: 15px;
-    border: none;
-     margin: 10px 70px;
-
-  }
+    /* NAV BAR START HERE */
 
 
- /* HERO SECTION START HERE */
+    .text-primary {
+        color: #FD6E0A;
+    }
 
- .first-line{
-    font-size: 30px;
-    font-weight: 600;
-    margin: 10px 70px;
- }
-.second-line{
-    font-weight: bold;
-    font-size: 40px;
-    margin: 10px 70px;
-}
-.paragraph-line{
-    color: #474747;
-    margin-top: 9px;
-    margin: 10px 70px;
-}
-.my-photo{
-    width: 300px;
-    margin: 10px 70px;
-}
-.abba-banner{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 100px 0 0;
-}
-.baby-banner-contant{
-    max-width: 600px;
-}
+
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 70px;
+    }
+
+    .nav-title {
+        font-weight: 800;
+        font-size: 45px;
+        margin-left: 30px;
+    }
+
+    nav>ul>li {
+        list-style: none;
+        margin-right: 40px;
+
+
+    }
+
+    nav>ul>li>a {
+        text-decoration: none;
+        font-size: 20px;
+
+    }
+
+    .dark-2 {
+        color: #474747;
+    }
+
+    nav>ul {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .btn-primary {
+        background-color: #FD6E0A;
+        font-weight: 700;
+        color: white;
+        padding: 10px 36px;
+        border-radius: 5px;
+        font-size: 15px;
+        border: none;
+        margin: 10px 70px;
+
+    }
+
+
+    /* HERO SECTION START HERE */
+
+    .first-line {
+        font-size: 30px;
+        font-weight: 600;
+        margin: 10px 70px;
+    }
+
+    .second-line {
+        font-weight: bold;
+        font-size: 40px;
+        margin: 10px 70px;
+    }
+
+    .paragraph-line {
+        color: #474747;
+        margin-top: 9px;
+        margin: 10px 70px;
+    }
+
+
+    .abba-banner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 100px;
+
+
+
+    }
+
+    .baby-banner-contant {
+        max-width: 600px;
+        margin-left: 30px;
+    }
+
+    .about-me {
+
+        padding-left: 650px;
+        margin-top: 100px;
+
+    }
+
+    .about-me-paragraph {
+
+        padding: 0 250px 0 250px;
+
+
+    }
+
+    .my-photo {
+        width: 350px;
+        height: 400px;
+
+        margin-right: 80px;
+        margin-bottom: 2px;
+        position: relative;
+        top: -70px;
