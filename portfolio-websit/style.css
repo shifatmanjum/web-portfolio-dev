@@ -1,0 +1,306 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* developer logo on left side start here START HERE */
+
+
+.developer-left-logo {
+    background-image: url('/images/developer.png'), url('/images/header_bg.png');
+    background-repeat: no-repeat, no-repeat;
+
+
+    background-position: 0px top, right 200px;
+    background-size: 62px, 600px;
+    background-color: #FFF8F3;
+
+
+
+
+
+
+    /* NAV BAR START HERE */
+
+    .text-primary {
+        color: #FD6E0A;
+    }
+
+
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 70px;
+    }
+
+    .nav-title {
+        font-weight: 800;
+        font-size: 45px;
+        margin-left: 30px;
+    }
+
+    nav>ul>li {
+        list-style: none;
+        margin-right: 40px;
+
+
+    }
+
+    nav>ul>li>a {
+        text-decoration: none;
+        font-size: 20px;
+
+    }
+
+    .dark-2 {
+        color: #474747;
+    }
+
+    nav>ul {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .btn-primary {
+        background-color: #FD6E0A;
+        font-weight: 700;
+        color: white;
+        padding: 10px 36px;
+        border-radius: 5px;
+        font-size: 15px;
+        border: none;
+        margin: 10px 70px;
+        box-shadow: 0px 6px 30px 0px rgb(33, 189, 98);
+
+    }
+
+
+    /* HERO SECTION START HERE */
+
+    .first-line {
+        font-size: 30px;
+        font-weight: 600;
+        margin: 10px 70px;
+    }
+
+    .second-line {
+        font-weight: bold;
+        font-size: 40px;
+        margin: 10px 70px;
+    }
+
+    .paragraph-line {
+        color: #474747;
+        margin-top: 9px;
+        margin: 10px 70px;
+    }
+
+
+    .abba-banner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 100px;
+
+
+
+    }
+
+    .baby-banner-contant {
+        max-width: 600px;
+        margin-left: 30px;
+    }
+
+    .about-me {
+
+        padding-left: 650px;
+        margin-top: 100px;
+
+    }
+
+    .about-me-paragraph {
+
+        padding: 0 250px 0 250px;
+
+
+    }
+
+    .my-photo {
+        width: 350px;
+        height: 400px;
+
+        margin-right: 80px;
+        margin-bottom: 2px;
+        position: relative;
+        top: -80px;
+    }
+
+    .main-bg-colour {
+        background-color: white;
+        padding: 0 250px 0 250px;
+        max-width: 1140px !important;
+
+    }
+
+    .second-bg {
+        background-color: #f1e8e2;
+        margin-left: 145px;
+        /* Space on the left */
+        margin-right: 146px;
+        margin-bottom: 150px;
+
+
+
+    }
+
+    .items {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 120px;
+
+    }
+
+    main>section>h2 {
+        text-align: center;
+    }
+
+    .section-padding {
+        padding: 90px;
+    }
+
+    .what-i-do-section {
+        margin-top: 15px;
+        background-color: #FFF8F3;
+    }
+
+    .item-title {
+        text-align: center;
+        font-weight: 800;
+    }
+
+    .item-description {
+        font-weight: bold;
+
+    }
+
+    .item-part {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-item-second {
+        border: 2px solid red;
+        background-color: #FFFFFF;
+        margin-right: 10px;
+        padding: 10px;
+        width: 337px;
+        height: 267px;
+        margin-top: 30px;
+        box-shadow: 0px 6px 50px 0px rgb(33, 189, 98);
+        border-radius: 5px;
+    }
+
+    .shifat-majum-resume {
+        background-color: #FFF8F3;
+        margin-left: 140px;
+        margin-right: 140PX;
+    }
+
+    .my-education {
+        margin-top: 15px;
+        display: flex;
+
+        flex-wrap: wrap;
+
+    }
+
+    .resume-section {
+        display: flex;
+        gap: 40px;
+        /* Space between the two columns */
+        justify-content: space-between;
+    }
+
+    .education,
+    .experience {
+        flex: 1;
+        /* Make both columns take equal space */
+    }
+
+
+    .download-btn {
+        margin-top: 30px;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .download-cv {
+        background-color: #FD6E0A;
+        font-weight: 700;
+        color: white;
+        padding: 10px 36px;
+        border-radius: 5px;
+        font-size: 15px;
+        border: none;
+        margin-left: 45%;
+        box-shadow: 0px 6px 60px 0px rgb(10, 196, 87);
+    }
+
+    .my-resume {
+        text-align: center;
+        font-size: xx-large;
+        border: 2px solid red;
+        margin-left: 560px;
+        margin-right: 570px;
+        border-radius: 5px;
+        box-shadow: 0px 6px 30px 0px rgb(33, 189, 98);
+    }
+
+    .footer {
+        border: 2px solid red;
+        background-color: rgb(255, 248, 243);
+        margin-top: 25px;
+        padding: 90px;
+    }
+
+    .footer-start {
+        display: flex;
+
+
+    }
+
+    input[type="text"] {
+        width: 100%;
+        /* Adjust the width of the text field */
+        padding: 10px;
+        /* Add padding inside the field */
+        margin: 8px 0;
+        /* Add some space around the text field */
+        box-sizing: border-box;
+        /* Ensure padding is included in the width */
+        border: 2px solid #ccc;
+        /* Add border around the field */
+        border-radius: 4px;
+        /* Rounded corners */
+        font-size: 16px;
+        /* Set font size */
+        outline: none;
+        /* Remove outline when focused */
+        transition: 0.3s;
+        /* Smooth transition for focus effect */
+    }
+
+    input[type="text"]:focus {
+        border-color: #FD6E0A;
+        /* Change border color when focused */
+    }
